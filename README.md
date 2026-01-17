@@ -35,3 +35,15 @@ The pin numbers below correspond to the standard **Male Mini-DIN-6** connector f
 
 This is the picture of the minidin6 / PS2 connector plugged into the cable for soldering:
 ![soldering pinout](pictures/pinout.png)
+
+# Flashing
+
+If you don't want to compile the files by yourself, you can use the files in the release section
+> These binaries are for the ESP32-S3 SuperMini board only !
+
+| File | Adress |
+| :--- | :--- |
+| `bootloader.bin` | **`0x0000`** |
+| `partitions.bin` | **`0x8000`** |
+| `boot_app0.bin` | **`0xe000`** |
+| `firmware.bin` | **`0x10000`** |
